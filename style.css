@@ -1,0 +1,58 @@
+.title {
+    font-family: "Georgia";
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 1em;
+}
+
+.image {
+    max-width: 100%; 
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-grow: 1;
+    font-size: 24px;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.rainbow-box {
+    display: flex;
+    flex-direction: column; 
+    margin: 0; 
+}
+
