@@ -1,0 +1,47 @@
+.calculator {
+    background-color: blue;
+    width: 450px;
+    margin: 20px auto;
+}
+
+.row {
+    height: 100px;
+    display: flex;
+}
+
+.display {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: right;
+    font-size: 70px;
+    padding-right: 8px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.button {
+    height: 100%;
+    background-color: #d8d9db;
+    text-align: center;
+    font-size: 50px;
+}
+
+.button:last-child {
+    background-color: #e0964b;
+    color: white;
+}
+
+.half {
+    width: 50%;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
